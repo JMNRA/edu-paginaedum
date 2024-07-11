@@ -1,0 +1,35 @@
+---
+import Header from '../components/Header.astro';
+---
+
+	<html lang="es">
+		<head>
+		  <meta charset="UTF-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <title>Conservas del Abuelo</title>
+		</head>
+		<body class="font-sans bg-gray-100 text-gray-800">
+		  <Header />
+		  <main class="max-w-7xl mx-auto p-6">
+			<p class="text-center text-lg font-bold text-gray-800">
+				¡Descubre nuestras deliciosas conservas, directamente de las frutas frescas de la granja del abuelo! En nuestra tienda online, encontrarás una selección única de conservas artesanales, elaboradas con el cariño y la tradición de generaciones. Desde duraznos jugosos hasta peras dulces y manzanas crujientes, cada bocado es una muestra del cuidado y la calidad que nos distingue. ¡Aprovecha y lleva a casa un pedacito de la historia familiar en cada frasco!
+			</p>
+			  
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+			  <div class="text-center bg-durazno-light p-4 rounded-lg shadow-md">
+				<img src="/durazno-en-lata.jpg" alt="Durazno en Lata" class="mx-auto mb-2" />
+				<p class="text-durazno-dark font-bold">Durazno en Lata</p>
+			  </div>
+			  <div class="text-center bg-pera-light p-4 rounded-lg shadow-md">
+				<img src="/pera-en-lata.jpg" alt="Pera en Almíbar" class="mx-auto mb-2" />
+				<p class="text-pera-dark font-bold">Pera en Almíbar</p>
+			  </div>
+			  <div class="text-center bg-manzana-light p-4 rounded-lg shadow-md">
+				<img src="/manzana-en-lata.jpg" alt="Manzana en Lata" class="mx-auto mb-2" />
+				<p class="text-manzana-dark font-bold">Manzana en Lata</p>
+			  </div>
+			</div>
+		  </main>
+		</body>
+	  </html>
+	
